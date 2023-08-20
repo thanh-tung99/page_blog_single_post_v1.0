@@ -22,11 +22,13 @@
 
 }
 
-.articles__news {
+.articles__link {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
+    text-decoration: none;
 
 }
 
@@ -36,20 +38,20 @@
 
 }
 
-.articles__link {
+.articles__name {
     display: block;
-    text-decoration: none;
     color:  #2D3958;
     font-family: DM Sans;
     font-size: 20px;
     font-weight: 500;
     line-height: 155.556%;
     padding-top: 20px;
+    transition: all 0.3s;
 
 }
 
-.articles__link:hover {
+.articles__link:hover .articles__name {
     text-decoration: underline;
     color: #4F77FF;
-    cursor: pointer;
+    
 }

@@ -90,7 +90,7 @@
 }
 
 
-.news__description {
+.news__title--bold {
     color: $text-heading;
     font-family: DM Sans;
     font-size: 16px;
@@ -100,7 +100,7 @@
 
 }
 
-.news__description--solid {
+.news__title--solid {
     color: $text-text;
     font-family: DM Sans;
     font-size: 16px;
@@ -110,12 +110,12 @@
 
 }
 
-.news__description--color {
+.news__title--color {
     color: #4F77FF;
     
 }
 
-.news__description-box {
+.news__title-box {
     color: $text-heading;
     font-family: DM Sans;
     font-size: 18px;
@@ -133,7 +133,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 10px;
+    padding: 30px 40px 0px 40px;
 
 }
 
@@ -179,6 +179,7 @@
     color: $text-text;
     padding: 0 8px;
     text-decoration: none;
+    transition: all 0.3s;
 
 }
 
