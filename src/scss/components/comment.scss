@@ -29,7 +29,28 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 30px;
     padding: 20px 0;
+
+    @media (max-width: 575px) {
+        flex-direction: column;
+        
+    }
+        
+    @media (min-width: 575px) {
+      
+            
+    }
+        
+    @media (min-width: 768px) {
+      
+            
+    }
+        
+    @media (min-width: 992px) {
+            
+            
+    }
 
 }
 
@@ -39,12 +60,15 @@
 }
 
 .comment__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 
 }
 
 .comment__text {
     flex: 1;
-    padding-left: 30px;
+    
 }
 
 .comment__name-day {
@@ -112,6 +136,27 @@
 
 }
 
+.comment__reply-mobile {
+    
+    @media (max-width: 575px) {
+        padding-left: 40px;
+        
+    }
+        
+    @media (min-width: 575px) {
+            
+    }
+        
+    @media (min-width: 768px) {
+      
+    }
+        
+    @media (min-width: 992px) {
+            
+    }
+
+}
+
 
 // write comment
 .comment__write {
@@ -136,6 +181,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 
 }
 
@@ -157,6 +204,9 @@
 
 .comment__cmt {
     min-height: 170px;
+    max-height: 170px;
+    min-width: 100%;
+    max-width: 100%;
     padding: 0 14px;
     color:  #7B88A8;
     font-family: DM Sans;
