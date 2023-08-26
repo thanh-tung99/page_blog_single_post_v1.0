@@ -1,7 +1,28 @@
 .articles {
     border-radius: 5px;
     background-color: #F8FAFC;
-    padding: 20px 40px 54px 40px;
+    padding: 30px 10px;
+
+    @media (max-width: 575px) {
+        
+    }
+        
+    @media (min-width: 575px) {
+            
+    }
+        
+    @media (min-width: 768px) {
+        padding: 20px 40px 54px 40px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 
@@ -42,11 +63,32 @@
     display: block;
     color:  #2D3958;
     font-family: DM Sans;
-    font-size: 20px;
     font-weight: 500;
     line-height: 155.556%;
     padding-top: 20px;
     transition: all 0.3s;
+    font-size: 16px;
+    
+    @media (max-width: 575px) {
+        
+    }
+    
+    @media (min-width: 575px) {
+        
+    }
+    
+    @media (min-width: 768px) {
+        font-size: 20px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 
