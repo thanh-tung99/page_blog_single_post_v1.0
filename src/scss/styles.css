@@ -683,9 +683,13 @@ h6 {
 
 .content {
   background-color: #FFF;
-  margin-bottom: 100px;
+  padding-bottom: 50px;
 }
-
+@media (min-width: 768px) {
+  .content {
+    padding-bottom: 100px;
+  }
+}
 .news {
   padding-top: 50px;
 }
@@ -1387,7 +1391,7 @@ h6 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 180px 0px;
+  padding: 150px 10px;
 }
 @media (min-width: 768px) {
   .subscribe__title {
